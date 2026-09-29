@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input =new Scanner(System.in);
+        System.out.print("enter your mark: ");
+        int mark=input.nextInt();
+        if(mark>=16){
+            System.out.println("exellent");
+        }else if(mark>=14){
+            System.out.println("very good");
+        }else if(mark>=10){
+            System.out.println("passed");
+        }else{
+            System.out.println("failed");
+        }
+        System.out.println("enter your age: ");
+        int age=input.nextInt();
+        System.out.println("enter your name: ");
+        String name=input.next();
+        System.out.println("hello "+name);
+        if(age>=18){
+            System.out.println("you are an adult.");
+        }else{
+            System.out.println("you are not an adult.");
+        }
+
+    }
+    }
+
